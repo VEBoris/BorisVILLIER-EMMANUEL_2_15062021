@@ -1,0 +1,40 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* header */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 10px 0 20px;
+}
+
+.composant {
+  text-decoration: none;
+  color: black;
+}
+
+.composant:hover {
+  color: #0065FC;
+  border-top: 2px solid #0065FC;
+  padding-top: 20px;
+}
+
+#composant {
+  color: #0065FC;
+  font-weight: bold;
+}
+
+/* couleurs
+#0065FC
+#DEEBFF
+#F2F2F2 */
