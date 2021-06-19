@@ -21,7 +21,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 10px 0 20px;
+  padding: 0 10px 0 20px;
 }
 
 nav a {
@@ -35,7 +35,7 @@ nav a:hover {
   padding-top: 20px;
 }
 
-#composant {
+#inscrire {
   color: #0065FC;
   font-weight: bold;
 }
