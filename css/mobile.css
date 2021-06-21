@@ -1,5 +1,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  /* header */
   nav {
     display: flex;
     flex-direction: column;
@@ -8,7 +10,9 @@
   }
 
   nav img {
-    height: 2.5em
+    height: 2.5em;
+    margin-top: 1px;
+    margin-left: 15px;
   }
 
   nav ul {
@@ -18,17 +22,16 @@
     padding: inherit;
   }
 
-  .composant {
+  .entete {
     text-align: center;
     flex-direction: row;
     width: 100%;
-    margin-top: 25px;
     padding: inherit;
     border-bottom: 2px solid #F2F2F2;
     padding-bottom: 5px;
   }
 
-  .composant:hover {
+  .entete:hover {
     color: #0065FC;
     border-top: none;
     border-bottom: 2px solid #0065FC;
@@ -41,7 +44,6 @@
 
   nav a:hover {
     border-top: none;
-    color: inherit;
   }
 
   #inscrire {
@@ -49,4 +51,10 @@
     right: 9%;
     top: 1.1em;
     margin: 7px 0.1px
+  }
+
+  /* footer */
+  #bas {
+    display: flex;
+    flex-direction: column;
   }
