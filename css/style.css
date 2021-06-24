@@ -3,11 +3,14 @@ body {
   margin: inherit;
 }
 
-header {
-  max-width: 1400px;
-  width: 95%;
-  margin: auto;
+img {
+  object-fit: cover;
 }
+
+/* header, section {
+  margin: auto;
+  max-width: 1400px;
+} */
 
 /* header */
 nav {
@@ -15,6 +18,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 8px 0 35px 0;
+}
+
+nav img {
+  margin-left: 20px;
 }
 
 nav ul {
@@ -141,6 +148,96 @@ button {
 
 #information p {
   padding: 0 5px 0 5px;
+}
+
+/* section hébergements */
+#section_deux {
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  margin: 0 0 10px 10px;
+  width: 65%;
+}
+
+#section_deux h2 {
+  margin: 0 0 30px 20px;
+  padding-top: 10px;
+  font-size: 1.4em;
+}
+
+#hotel {
+  display: flex;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+
+.logement {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding-bottom: 20px;
+}
+
+.logement:hover {
+  transform: scale(0.9);
+  transition: ease 0.5;
+}
+
+.logement a {
+  text-decoration: none;
+  color: black;
+  width: 90%;
+  height: 200px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.logement img {
+  height: 50%;
+  width: 96%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 5px;
+}
+
+.logement h3 {
+  margin: 0;
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+.logement p {
+  margin: 0;
+  padding: 5px;
+  font-size: 0.8em;
+}
+
+.prix_bold {
+  font-weight: bold;
+}
+
+.cinq_star {
+  display: flex;
+  margin: 0;
+  color: #0065FC;
+  padding: 5px;
+}
+
+.grey_star {
+  color: #F2F2F2;
+}
+
+#afficher {
+  padding: 20px 0 50px 20px;
+}
+
+#afficher a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+#afficher a:hover {
+  color: #0065FC;
 }
 
 /* footer */
