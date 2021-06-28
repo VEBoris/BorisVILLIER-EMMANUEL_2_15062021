@@ -1,60 +1,7 @@
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
-  /* header */
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    width: 100%;
+  #filtre_lead {
+    flex-wrap: wrap;
   }
-
-  nav img {
-    height: 2.5em;
-    margin-top: 1px;
-    margin-left: 15px;
-  }
-
-  nav ul {
-    display: flex;
-    font-size: 0.9em;
-    width: 100%;
-    padding: inherit;
-  }
-
-  nav li {
-    padding: 0;
-  }
-
-  .entete {
-    text-align: center;
-    flex-direction: row;
-    width: 100%;
-    padding: inherit;
-    border-bottom: 2px solid #F2F2F2;
-    padding-bottom: 5px;
-  }
-
-  .entete:hover {
-    color: #0065FC;
-    border-top: none;
-    border-bottom: 2px solid #0065FC;
-    padding-bottom: 5px;
-  }
-
-  nav a {
-    width: 100%;
-  }
-
-  nav a:hover {
-    border-top: none;
-  }
-
-  #inscrire {
-    position: absolute;
-    right: 9%;
-    top: 1.1em;
-    margin: 7px 0.1px;
-  }
-
 }
