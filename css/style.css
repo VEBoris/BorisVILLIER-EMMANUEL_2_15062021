@@ -260,6 +260,7 @@ button {
   color: #0065FC;
 }
 
+/* section populaires */
 #populaire {
   display: flex;
   align-items: flex-start;
@@ -293,8 +294,8 @@ button {
   width: 90%;
   height: 150px;
   background-color: white;
-  border-radius: 15px;
-  box-shadow: 2px 2px 0px #D9D9D9; /* 27px */
+  border-radius: 25px;
+  box-shadow: 2px 2px 0px #D9D9D9;
   margin-bottom: 20px;
   margin-left: 20px;
 }
@@ -313,11 +314,10 @@ button {
 
 .chambre_populaire img {
   height: 93%;
-  /* width: 96%; */
   min-width: 35%;
-  max-width: 35%;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  width: 35%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
   padding: 5px;
 }
 

@@ -1,7 +1,42 @@
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
 
+  /* section intro searchbar */
+  section h1 {
+    font-size: 1.6em
+  }
+
+  /* section intro filtre */
   #filtre_lead {
     flex-wrap: wrap;
+  }
+
+  /* section populaires */
+  #premiere_part {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #populaire {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  #hotel_populaire {
+    width: 100%;
+  }
+
+  .chambre_populaire img {
+    width: 300px;
+  }
+
+  /* section hébergements */
+  #section_deux {
+    width: inherit;
+    background-color: inherit;
+  }
+
+  .logement h3 {
+    font-size: 1.2em;
   }
 }
