@@ -380,6 +380,11 @@ button {
   border: 1px solid #F2F2F2;
 }
 
+.grand:hover {
+  transform: scale(0.95);
+  transition: ease 0.5s;
+}
+
 .grand img {
   height: 458px;
 }
@@ -396,6 +401,11 @@ button {
   border-radius: 15px;
   box-shadow: 2.5px 2.5px 0 #D9D9D9;
   border: 1px solid #F2F2F2;
+}
+
+#fort_ile article:hover {
+  transform: scale(0.95);
+  transition: ease 0.5s;
 }
 
 #fort_ile img {
@@ -418,6 +428,11 @@ button {
   border-radius: 15px;
   box-shadow: 2.5px 2.5px 0 #D9D9D9;
   border: 1px solid #F2F2F2;
+}
+
+#culturel article:hover {
+  transform: scale(0.95);
+  transition: ease 0.5s;
 }
 
 #culturel img {
