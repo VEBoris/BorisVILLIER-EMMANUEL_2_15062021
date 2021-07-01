@@ -7,10 +7,10 @@ img {
   object-fit: cover;
 }
 
-/* header, section {
+header, #intro, main, #bas {
   margin: auto;
-  max-width: 1400px;
-} */
+  max-width: 1247px;
+}
 
 /* header */
 nav {
@@ -367,7 +367,7 @@ button {
 }
 
 #tourisme h3 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin: 0;
   padding: 12px 0 5px 15px;
 }

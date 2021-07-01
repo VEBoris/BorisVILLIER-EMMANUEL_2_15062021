@@ -149,6 +149,49 @@
     padding: 6px 6px 0 6px;
   }
 
+  /* section acivité */
+  #activite {
+    width: 96%
+  }
+
+  #activite h2 {
+    margin-bottom: 35px;
+  }
+
+  #tourisme {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  #tourisme h3 {
+    padding-bottom: 11px;
+  }
+
+  .grand {
+    width: 88%;
+  }
+
+  .grand img {
+    height: 170px;
+  }
+
+  #fort_ile {
+    width: 88%;
+  }
+
+  #fort_ile img {
+    height: 170px;
+  }
+
+  #culturel {
+    width: 88%;
+  }
+
+  #culturel img {
+    height: 170px;
+  }
+
   /* footer */
   #bas {
     display: flex;

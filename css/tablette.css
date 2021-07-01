@@ -40,4 +40,55 @@
   .logement h3 {
     font-size: 1.2em;
   }
+
+  /* section activité */
+  #tourisme {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  #tourisme h3 {
+    padding-bottom: 20px;
+    font-size: 1.4em;
+    /* text-align: center; */
+  }
+
+  .grand {
+    width: 97%;
+  }
+
+  .grand img {
+    height: 260px;
+  }
+
+  #fort_ile {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    width: 97%;
+  }
+
+  #fort_ile article {
+    width: 50%;
+  }
+
+  #fort_ile img {
+    height: 260px;
+  }
+
+  #culturel {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    width: 97%;
+  }
+
+  #culturel article {
+    width: 50%;
+  }
+
+  #culturel img {
+    height: 260px;
+  }
 }
