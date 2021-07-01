@@ -1,5 +1,5 @@
 /* iPads (portrait and landscape) ----------- */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1247px) {
 
   /* section intro searchbar */
   section h1 {
@@ -20,18 +20,19 @@
   #populaire {
     width: 100%;
     border-radius: 0;
+    align-items: center;
   }
 
   #hotel_populaire {
-    width: 100%;
+    width: 60%;
   }
 
   .chambre_populaire img {
-    width: 300px;
+    min-width: 220px;
   }
 
   /* section hébergements */
-  #section_deux {
+  #hebergement {
     width: inherit;
     background-color: inherit;
   }

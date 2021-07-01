@@ -169,14 +169,14 @@ button {
   margin-bottom: 10px;
 }
 
-#section_deux {
+#hebergement {
   background-color: #F2F2F2;
   border-radius: 15px;
   margin: 0 0 10px 10px;
   width: 65%;
 }
 
-#section_deux h2 {
+#hebergement h2 {
   margin: 0 0 30px 20px;
   padding-top: 30px;
   font-size: 1.4em;
@@ -203,6 +203,7 @@ button {
 .logement a {
   text-decoration: none;
   color: black;
+  justify-content: space-around;
   width: 90%;
   height: 200px;
   background-color: white;
@@ -212,7 +213,7 @@ button {
 
 .logement img {
   height: 50%;
-  width: 96%;
+  width: 97%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   padding: 5px;
@@ -295,7 +296,7 @@ button {
   height: 150px;
   background-color: white;
   border-radius: 25px;
-  box-shadow: 2px 2px 0px #D9D9D9;
+  box-shadow: 2px 2px 0 #D9D9D9;
   margin-bottom: 20px;
   margin-left: 20px;
 }
@@ -335,6 +336,92 @@ button {
 .chambre_populaire p {
   padding-left: 5px;
   margin: 0;
+}
+
+/* section activités */
+#activite {
+  margin-bottom: 50px;
+}
+
+#activite h2 {
+  margin-left: 20px;
+}
+
+#tourisme {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  column-gap: 35px;
+  width: 97%;
+}
+
+#tourisme a {
+  text-decoration: none;
+  color: black;
+}
+
+#tourisme img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#tourisme h3 {
+  font-size: 1.1em;
+  margin: 0;
+  padding: 12px 0 5px 15px;
+}
+
+.grand {
+  width: 38%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2.5px 2.5px 0 #D9D9D9;
+  border: 1px solid #F2F2F2;
+}
+
+.grand img {
+  height: 458px;
+}
+
+#fort_ile {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  row-gap: 40px;
+}
+
+#fort_ile article {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2.5px 2.5px 0 #D9D9D9;
+  border: 1px solid #F2F2F2;
+}
+
+#fort_ile img {
+  height: 250px;
+}
+
+#petit img {
+  height: 124px;
+}
+
+#culturel {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  row-gap: 40px;
+}
+
+#culturel article {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2.5px 2.5px 0 #D9D9D9;
+  border: 1px solid #F2F2F2;
+}
+
+#culturel img {
+  height: 187px;
 }
 
 /* -centré au milieu toute la page */
