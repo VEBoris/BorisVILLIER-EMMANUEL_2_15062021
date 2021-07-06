@@ -1,5 +1,5 @@
 /* iPads (portrait and landscape) ----------- */
-@media screen and (min-width: 767px) and (max-width: 1247px) {
+@media all and (min-width: 767px) and (max-width: 1247px) {
 
   /* section intro searchbar */
   section h1 {

@@ -9,7 +9,7 @@ img {
 
 header, #intro, main, #bas {
   margin: auto;
-  max-width: 1247px;
+  max-width: 1400px;
 }
 
 /* header */
@@ -17,7 +17,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 8px 0 35px 0;
+  margin: 27px 0 35px 0;
 }
 
 nav img {
@@ -38,7 +38,7 @@ nav a {
 nav a:hover {
   color: #0065FC;
   border-top: 2px solid #0065FC;
-  padding-top: 20px;
+  padding-top: 36px;
 }
 
 #inscrire {
@@ -92,6 +92,7 @@ button {
   font-weight: bold;
   background-color: #0065FC;
   color: white;
+  border-color: inherit;
   border-style: none;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
